@@ -13,8 +13,8 @@ function LoginForm(props) {
   const [isDisabled, setIsDisabled] = useState(true);
   const dispatch = useDispatch();
   const [formData, setFormData] = useState({
-    login: "sf_student9",
-    password: "DTdEwAn",
+    login: "",
+    password: "",
   });
   const navigate = useNavigate();
 

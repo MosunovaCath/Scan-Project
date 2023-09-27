@@ -33,7 +33,7 @@ const SearchResultsPage = (props) => {
         <h2 className={styles["results-news"]}>Общая сводка</h2>
         <SearchCarousel />
         <h2 className={styles["results-col"]}>Список документов</h2>
-        {news.isLoading ? <h1>loading</h1> : <NewsBlock />}
+        {news.isLoading ? <h1>Loading</h1> : <NewsBlock />}
       </div>
     </>
   );

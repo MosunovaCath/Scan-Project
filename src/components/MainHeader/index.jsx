@@ -2,13 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./MainHeader.module.css";
 import { Grid, Hidden } from "@mui/material";
-import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";
 
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../redux/slices/authSlice";
 import CompanyInfo from "./CompanyInfo";
-import { Col, Row } from "antd";
 
 const MainHeader = () => {
   const isAuth = useSelector((state) => state.auth.isAuthenticated); //?

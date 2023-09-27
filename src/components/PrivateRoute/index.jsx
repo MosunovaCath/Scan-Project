@@ -12,7 +12,7 @@ const PrivateRoute = (props) => {
     .then((data) => {
       if (!data) dispatch(logout());
     })
-    .catch((e) => console.log(e));
+    .catch((error) => console.log(error));
 
   return isAuthenticated ? <Outlet /> : <Navigate to={"/"} replace />;
 };

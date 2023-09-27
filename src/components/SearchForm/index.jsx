@@ -20,11 +20,11 @@ const SearchForm = (props) => {
   const today = new Date().toISOString().substr(0, 10);
   const [maxDate, setMaxDate] = useState(today);
   const [formData, setFormData] = useState({
-    inn: "7710137066",
+    inn: "",
     tonality: "any",
-    startDate: "2022-09-13",
-    endDate: "2023-09-13",
-    limit: "100",
+    startDate: "",
+    endDate: "",
+    limit: "",
     maxFullness: false,
     inBusinessNews: false,
     onlyMainRole: false,

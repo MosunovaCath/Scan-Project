@@ -6,17 +6,16 @@ import LoginAuthTabs from "../../components/LoginAuthTabs";
 const LoginPage = (props) => {
   return (
     <Grid container justifyContent={"center"}>
-      <h1>Для оформления подписки на тариф, необходимо авторизоваться.</h1>
-
-      <Hidden mdDown>
-        <Grid className={styles["main-text"]} item md={11} lg={7}>
+      <Grid className={styles["main-text"]} item md={11} lg={7}>
+        <h1>Для оформления подписки на тариф, необходимо авторизоваться.</h1>
+        <Hidden mdDown>
           <img
             className={styles["men_key"]}
             src="./images/men_key.svg"
             alt="men_key"
           />
-        </Grid>
-      </Hidden>
+        </Hidden>
+      </Grid>
 
       <Grid item sm={12} lg={4}>
         <div className={styles["form-col"]}>
