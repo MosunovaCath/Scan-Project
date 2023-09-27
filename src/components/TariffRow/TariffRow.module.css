@@ -1,0 +1,15 @@
+.tariff-text {
+  font-family: "Ferry";
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 54px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-bottom: 70px;
+}
+.tariff-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}

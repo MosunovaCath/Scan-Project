@@ -1,0 +1,103 @@
+.form {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  padding: 29px 42px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  justify-content: space-evenly;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.inputs-row {
+  display: flex;
+  justify-content: space-between;
+}
+.text-red {
+  color: red;
+}
+.single-input {
+  width: 75%;
+  padding: 13px 17px !important;
+  border: 1px solid rgba(199, 199, 199, 1);
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.single-input:focus {
+  outline: none;
+}
+.text {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: right;
+  color: rgba(148, 148, 148, 1);
+}
+.error-text {
+  width: 75%;
+  color: red;
+  text-align: center;
+}
+.date-input {
+  width: 45%;
+  padding: 13px 17px !important;
+  border: 1px solid rgba(199, 199, 199, 1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.checkbox-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.checkbox-col label {
+  cursor: pointer;
+}
+.checkbox {
+  display: none;
+  margin-bottom: 10px;
+}
+.checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.btn-block {
+  text-align: right;
+}
+.btn-submit {
+  background-color: #5970ff;
+  color: white;
+  padding: 16px 117px;
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+/* .btn-submit:disabled {
+  background-color: red !important;
+  opacity: 0.5;
+} */
+.btn-disabled {
+  opacity: 0.3;
+}

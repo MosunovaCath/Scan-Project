@@ -1,0 +1,92 @@
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  margin: 0 25px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.header {
+  padding: 0 15px;
+  align-items: center;
+}
+.header-logout {
+  display: flex;
+}
+.logout-nav {
+  text-align: right;
+}
+.logout-btn {
+  border: none;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  background: none;
+  cursor: pointer;
+  opacity: 40%;
+}
+.login-btn {
+  background-color: rgba(124, 227, 225, 1);
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.signup-btn {
+  margin-right: 12px;
+  padding-right: 8px;
+  border-right: 2px solid rgba(2, 148, 145, 1);
+  color: rgba(0, 0, 0, 0.4);
+  margin: 20px 5px;
+}
+.mobile-nav-dsb {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  transition: 1s;
+  height: calc(100vh - 80px);
+  width: 100%;
+  z-index: 999;
+  left: -100%;
+}
+.mobile-nav {
+  position: absolute;
+  background-color: rgba(2, 148, 145, 1);
+  color: white;
+  left: 0;
+  transition: 1s;
+  top: 100px;
+  height: calc(100vh - 80px);
+  width: 100%;
+  z-index: 999;
+  left: 0;
+}
+.burger-items {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  cursor: pointer;
+}
+.burger-menu {
+  margin: 138px 150px;
+}
+.burger-i {
+  margin-bottom: 26px;
+}
+.burger-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

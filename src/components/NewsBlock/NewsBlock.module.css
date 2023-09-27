@@ -1,0 +1,29 @@
+.results-btn {
+  background-color: rgba(89, 112, 255, 1);
+  color: white;
+  padding: 16px 50px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  cursor: pointer;
+}
+.text-null {
+  color: rgba(148, 148, 148, 1);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.btn-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 0;
+}
